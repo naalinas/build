@@ -1,0 +1,59 @@
+@media screen and (max-width:726px){
+  
+.col-4, .col-3{
+    width: 100%;
+}
+.container{
+    padding: 0 20px;
+}
+.years__box{
+    width: 100%;
+}
+.hero__title{
+    font-size: 32px;
+    line-height: 1.5;
+}
+  .hero__subtitle{
+      font-size: 14px;
+      padding-top: 20px;
+  }
+  .contacts__row{
+      flex-wrap: wrap ;
+  }
+  .request__row{
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  }
+  .request__row button{
+      margin-top: 30px;
+  }
+  .portfolio__box{
+      padding: 0 0;
+  }
+  .partners__row{
+      flex-wrap: wrap;
+  }
+  .partners-item{
+      width: 100%;
+      margin-bottom: 40px;
+  }
+  .reviews-item h5{
+      margin-bottom: 0;
+  }
+  .partrners-item img{
+      object-fit: contain;
+  }
+  .partners, .reviews{
+      overflow: hidden;
+  }
+  .request__row{
+      padding: 40px 20px 0;
+  }
+  .footer__row{
+      flex-direction: column;
+  }
+  .footer__row > div:first-child{
+      margin-bottom: 15px;
+  }
+}

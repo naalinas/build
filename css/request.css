@@ -1,0 +1,58 @@
+.request{
+    background: #F7654A;
+    padding: 30px 0 45px;
+}
+.request__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.request h3{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+.request h6{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+.request__row button{
+    padding: 14px 30px ;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    display: flex ;
+    align-items: center;
+    outline: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.request__row button:hover{
+    color: #fff;
+    border: 2px solid #fff; 
+    background-color: #F7654A;
+}
+.request__row button svg{
+    margin-right: 15px;
+}
+.request__row button path{
+    transition: 0.3s;
+}
+.request__row button:hover path{
+    fill: #fff;
+}

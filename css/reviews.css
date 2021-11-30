@@ -1,0 +1,49 @@
+.reviews .title{
+    padding-top: 150px ;
+}
+.reviews__row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    margin: -15px;
+}
+.reviews-item__description{
+    position: relative;
+    background: #F7F7F7;
+    padding: 80px 30px 38px;
+    margin-bottom: 30px;
+}
+.reviews-item__description::before{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background: url('../img/quotes.jpg') no-repeat center;
+    width: 40px;
+    height: 30px;
+}
+.reviews-item__description p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+}
+.reviews-item h5{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 150px;
+}
+.reviews-item span{
+    color: #F7654A;
+}
+.reviews__row .col-4{
+    padding:15px;
+    box-sizing: border-box;
+}

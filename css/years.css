@@ -1,0 +1,27 @@
+.years{
+    text-align: center;
+    margin-top: -200px;
+ }
+ .years__content{
+    background:#F7F7F7;;
+    padding: 57px 130px;
+ }
+ .years__number{
+    color: #F7654A;
+    font-weight: 500;
+    font-size: 72px;
+ }
+ .years__title{
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+ }
+ .years__subtitle{
+    font-weight: 500;
+    font-size: 18px;
+    color:#999999;
+ }
+ .years__content{
+    display: flex;
+    justify-content:space-around;
+ }

@@ -1,0 +1,36 @@
+.question{
+    padding: 150px 0;
+}
+.question-item h3{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7654A;
+
+}
+.question-item img{
+    margin-right: 15px ;
+}
+.question-item.active img{
+    transform: rotate(-90deg);
+
+}
+.question-item{
+    margin-bottom: 40px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 730px;
+
+}
+.question-item p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    margin-top: 30px;
+}

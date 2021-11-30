@@ -1,0 +1,11 @@
+.portfolioo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolioo img{
+    width: 100%;
+    height: 100%;
+}
+.portfolioo .col-3{
+    height: 300px;
+}

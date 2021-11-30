@@ -1,0 +1,37 @@
+.contacts {
+    padding: 100px 0 ;
+}
+.contacts__row{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.contacts-item h4{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #999999;
+    margin: 15px 0;
+}
+.contacts-item h5{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+
+}
+.contacts-item img{
+    height: 50px;
+    object-fit: contain;
+}
+.contacts-item .email{
+    color: #F7654A;
+    margin-top: 25px;
+}

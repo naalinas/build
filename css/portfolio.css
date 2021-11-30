@@ -1,0 +1,49 @@
+.portfolio__sector{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portfolio .title{
+    color: #404149;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.portfolio__box img{
+    width: 350px;
+    height: 380px;
+}
+.portfolio__name{
+    margin-top: 66px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+
+}
+.portfolio__description{
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #999999;;
+}
+.portfolio{
+    padding-bottom: 150px;
+}
+.portfolio__box{
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.line{
+    width: 55px;
+    height: 6px;
+    left: 405px;
+    top: 1518px;
+    background: #F7654A;
+    margin-top: 45px;
+}
